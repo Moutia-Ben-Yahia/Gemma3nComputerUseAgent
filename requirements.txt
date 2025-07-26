@@ -1,0 +1,42 @@
+# Computer Use Agent Requirements
+# Comprehensive dependencies for Claude-like computer automation
+
+# Core computer vision and screen analysis
+opencv-python>=4.8.0
+pillow>=10.0.0
+pytesseract>=0.3.10
+numpy>=1.24.0
+
+# Screen capture and automation
+pyautogui>=0.9.54
+pygetwindow>=0.0.9
+pyscreenshot>=3.1
+
+# Web browser automation
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+
+# System integration and window management
+psutil>=5.9.0
+pywin32>=306  # Windows-specific
+
+# Image processing and pattern recognition
+scikit-image>=0.21.0
+matplotlib>=3.7.0
+
+# OCR dependencies (Tesseract)
+# Note: You'll need to install Tesseract OCR separately:
+# Download from: https://github.com/UB-Mannheim/tesseract/wiki
+# Add to PATH: C:\Program Files\Tesseract-OCR
+
+# Optional: Advanced computer vision
+# tensorflow>=2.13.0  # For advanced ML-based element detection
+# torch>=2.0.0  # For PyTorch-based models
+# ultralytics>=8.0.0  # For YOLO object detection
+
+# Note: threading, queue, and asyncio are built-in Python modules
+
+# Additional utilities
+screeninfo>=0.8.1  # Multi-monitor support
+keyboard>=0.13.5  # Advanced keyboard handling
+mouse>=0.7.1  # Advanced mouse handling

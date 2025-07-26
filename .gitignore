@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.env/
+.venv/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Data and cache
+*.db
+*.sqlite
+*.sqlite3
+data/cache/
+data/backups/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test outputs
+*.out
+*.tmp
+
+# Environment files
+.env
+
+# Ignore requirements lock files
+requirements*.lock
+
+# Ignore bat files
+*.bat
+
+# Ignore documentation
+*.md
+
+# Ignore analytics and database folders
+analytics/
+database/
+
+# Ignore test folders
+/tests/
